@@ -832,6 +832,10 @@
     <comp lib="0" loc="(150,240)" name="Clock">
       <a name="label" val="CLK"/>
     </comp>
+    <comp lib="0" loc="(170,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="HLT"/>
+    </comp>
     <comp lib="0" loc="(180,940)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="IL"/>
@@ -941,6 +945,8 @@
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
+    <comp lib="1" loc="(230,300)" name="NOT Gate"/>
+    <comp lib="1" loc="(300,280)" name="AND Gate"/>
     <comp lib="1" loc="(480,1000)" name="Controlled Buffer">
       <a name="width" val="8"/>
     </comp>
@@ -983,8 +989,11 @@
     <comp loc="(850,590)" name="arithmetic_unit_8_bit">
       <a name="label" val="ALU"/>
     </comp>
-    <wire from="(150,240)" to="(500,240)"/>
+    <wire from="(150,240)" to="(170,240)"/>
     <wire from="(170,1040)" to="(470,1040)"/>
+    <wire from="(170,240)" to="(170,260)"/>
+    <wire from="(170,260)" to="(250,260)"/>
+    <wire from="(170,300)" to="(200,300)"/>
     <wire from="(170,970)" to="(170,1040)"/>
     <wire from="(170,970)" to="(180,970)"/>
     <wire from="(180,1030)" to="(500,1030)"/>
@@ -992,9 +1001,13 @@
     <wire from="(180,880)" to="(510,880)"/>
     <wire from="(180,960)" to="(180,970)"/>
     <wire from="(180,980)" to="(180,1030)"/>
+    <wire from="(230,300)" to="(250,300)"/>
     <wire from="(300,1080)" to="(300,1100)"/>
+    <wire from="(300,280)" to="(310,280)"/>
     <wire from="(310,1080)" to="(310,1100)"/>
     <wire from="(310,170)" to="(470,170)"/>
+    <wire from="(310,240)" to="(310,280)"/>
+    <wire from="(310,240)" to="(500,240)"/>
     <wire from="(310,90)" to="(310,170)"/>
     <wire from="(310,90)" to="(320,90)"/>
     <wire from="(320,1080)" to="(320,1100)"/>
