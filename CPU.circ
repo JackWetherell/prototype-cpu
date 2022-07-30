@@ -483,12 +483,10 @@
     <wire from="(730,230)" to="(730,300)"/>
     <wire from="(730,390)" to="(730,490)"/>
     <wire from="(740,380)" to="(740,490)"/>
-    <wire from="(750,120)" to="(750,130)"/>
-    <wire from="(750,130)" to="(820,130)"/>
+    <wire from="(750,120)" to="(750,140)"/>
+    <wire from="(750,140)" to="(830,140)"/>
     <wire from="(750,360)" to="(750,490)"/>
     <wire from="(760,510)" to="(760,530)"/>
-    <wire from="(820,130)" to="(820,140)"/>
-    <wire from="(820,140)" to="(830,140)"/>
   </circuit>
   <circuit name="or_latch">
     <a name="appearance" val="logisim_evolution"/>
@@ -648,7 +646,7 @@
     </comp>
     <comp lib="0" loc="(80,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="E"/>
+      <a name="label" val="L"/>
     </comp>
     <comp lib="0" loc="(80,370)" name="Pin">
       <a name="appearance" val="NewPins"/>
